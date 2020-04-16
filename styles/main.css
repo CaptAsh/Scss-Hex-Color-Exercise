@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto+Mono:wght@300&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 60px;
+  color: lightgreen;
+}
+h1:hover {
+  background-color: black;
+  cursor: progress;
+}
+
+body {
+  margin: 60px;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+}
+body .box-color {
+  border: black 3px solid;
+  width: 150px;
+  height: 150px;
+  margin: 0rem 1rem;
+}
+body .box-color .box-top {
+  width: 100%;
+  height: 60%;
+}
+body .box-color .box-bottom {
+  width: 100%;
+  height: 30%;
+  padding: 3px;
+}
+body .box-color .box-bottom p {
+  font: 12px "Roboto Mono", monospace;
+  font-weight: 900;
+  margin: 0.2rem 0rem 0.2rem 0rem;
+  color: #942e2e 1px;
+  cursor: crosshair;
+}
+body .box-color #box-top-1 {
+  background-color: #bf260a;
+}
+body .box-color #box-top-2 {
+  background-color: #bada55;
+}
+body .box-color #box-top-3 {
+  background-color: #b0e0e6;
+}
+body .box-color #box-top-4 {
+  background-color: #ff69b4;
+}
+
+/*# sourceMappingURL=main.css.map */
