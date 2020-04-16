@@ -1,0 +1,57 @@
+h1 {
+  font-size: 60px;
+  color: $color-title;
+  &:hover {
+    background-color: black;
+    cursor: progress;
+  }
+}
+body {
+  margin: 60px;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+
+  .box-color {
+    border: black 3px solid;
+
+    width: 150px;
+    height: 150px;
+    margin: 0rem 1rem;
+
+    .box-top {
+      width: 100%;
+      height: 60%;
+    }
+
+    .box-bottom {
+      width: 100%;
+      height: 30%;
+      padding: 3px;
+
+      p {
+        font: 12px $font-stack;
+        font-weight: 900;
+        margin: 0.2rem 0rem 0.2rem 0rem;
+        color: $color-border-boxes;
+        cursor: crosshair;
+      }
+    }
+
+    #box-top-1 {
+      background-color: $color-box-1;
+    }
+
+    #box-top-2 {
+      background-color: $color-box-2;
+    }
+
+    #box-top-3 {
+      background-color: $color-box-3;
+    }
+
+    #box-top-4 {
+      background-color: $color-box-4;
+    }
+  }
+}
